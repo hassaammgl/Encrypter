@@ -31,12 +31,11 @@ int main()
     char z[25], m;
     while (m != 'n')
     {
-
         cout << "Enter your input: " << endl;
         cin >> z;
-        cout << "Press: " << endl;
-        cout << "\t 1 -> for Encrypt " << endl;
-        cout << "\t 2 -> for Decrypt " << endl;
+        cout << "Press: " << endl
+             << "\t 1 -> for Encrypt " << endl
+             << "\t 2 -> for Decrypt " << endl;
         cin >> d;
         switch (d)
         {
